@@ -9,24 +9,20 @@ body {
 }
 section {
   background-color: hsl(0, 0%, 100%);
-  margin: 3rem 10rem;
+  margin: 3rem 15rem;
   border-radius: 8px;
-  width: 70%;
-}
-.main-content {
-  width: 80%;
   padding: 2rem;
-  margin-left: 2rem;
+  width: 60%;
 }
 
 .image {
-  width: 50rem;
+  width: 47rem;
   height: 250px;
   border-radius: 8px;
 }
 
 p {
-  width: 50rem;
+  width: 47rem;
 }
 
 .main-content h3 {
@@ -36,7 +32,7 @@ p {
 
 .preparation {
   margin-top: 20px;
-  width: 50rem;
+  width: 47rem;
   padding: 20px;
   background-color: hsl(330, 100%, 98%);
 }
@@ -52,7 +48,7 @@ p {
 
 .ingredients {
   padding: 20px;
-  width: 50rem;
+  width: 47rem;
   border-bottom: 1px solid rgb(226, 224, 224);
 }
 .ingredients > h3 {
@@ -65,7 +61,7 @@ p {
 }
 .instructions {
   padding: 20px;
-  width: 50rem;
+  width: 47rem;
   border-bottom: 1px solid rgb(226, 224, 224);
 }
 .instructions > h3 {
@@ -100,7 +96,7 @@ p {
 }
 .Nutrition {
   padding: 20px;
-  width: 50rem;
+  width: 47rem;
 }
 .Nutrition > h3 {
   color: hsl(14, 45%, 36%);
