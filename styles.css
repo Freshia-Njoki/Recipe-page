@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: hsl(30, 54%, 90%);
+  width: fit content;
+}
+section {
+  background-color: hsl(0, 0%, 100%);
+  margin: 3rem 10rem;
+  border-radius: 8px;
+  width: 70%;
+}
+.main-content {
+  width: 80%;
+  padding: 2rem;
+  margin-left: 2rem;
+}
+
+.image {
+  width: 50rem;
+  height: 250px;
+  border-radius: 8px;
+}
+
+p {
+  width: 50rem;
+}
+
+.main-content h3 {
+  margin-top: 20px;
+  font-style: 16px;
+}
+
+.preparation {
+  margin-top: 20px;
+  width: 50rem;
+  padding: 20px;
+  background-color: hsl(330, 100%, 98%);
+}
+.preparation > ul {
+  /* font-family: Young serif; */
+  color: hwb(30 40% 53%);
+  padding: 10px;
+  line-height: 1.5;
+}
+.preparation > h3 {
+  color: hsl(332, 51%, 32%);
+}
+
+.ingredients {
+  padding: 20px;
+  width: 50rem;
+  border-bottom: 1px solid rgb(226, 224, 224);
+}
+.ingredients > h3 {
+  color: hsl(14, 45%, 36%);
+  padding: 7px;
+}
+.ingredients > ul {
+  color: hwb(30 40% 53%);
+  line-height: 1.5;
+}
+.instructions {
+  padding: 20px;
+  width: 50rem;
+  border-bottom: 1px solid rgb(226, 224, 224);
+}
+.instructions > h3 {
+  color: hsl(14, 45%, 36%);
+  padding: 7px;
+}
+.instructions > ol {
+  color: hwb(30 40% 53%);
+}
+
+.Nutrition > table,
+p {
+  color: hwb(30 40% 53%);
+}
+.list {
+  list-style-type: none;
+  counter-reset: custom-counter;
+}
+
+.list li {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.list li:before {
+  content: counter(custom-counter);
+  counter-increment: custom-counter;
+  position: absolute;
+  left: -30px;
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+.Nutrition {
+  padding: 20px;
+  width: 50rem;
+}
+.Nutrition > h3 {
+  color: hsl(14, 45%, 36%);
+  padding: 7px;
+}
+.custom-table td:nth-child(2) {
+  color: hsl(14, 45%, 36%);
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.custom-table tr {
+  border-bottom: 1px solid rgb(226, 224, 224);
+}
+.custom-table tr td {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
